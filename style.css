@@ -3,10 +3,9 @@ body {
   flex-direction: column;
   background-color: #1F2937;
   font-family: "Roboto", serif;
-}
-
-header {
   padding: 8px 10%;
+  justify-content: space-between;
+  height: 100vh;
 }
 
 header > ul {
@@ -32,4 +31,39 @@ a {
 .logo a {
   color: #F9FAF8;
   font-size: 24px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 48px;
+  color: #F9FaF8;
+  font-weight: 900;
+}
+
+.main p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.main button {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  border: 0;
+  border-radius: 5px;
+  padding: 8px 32px;
+  font-size: 18px;
+}
+
+.left {
+  margin-right: 40px;
+}
+
+.left, .right {
+  flex: 1;
+  min-height: 300px;
 }
