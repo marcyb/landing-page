@@ -1,3 +1,3 @@
 # Image Attribution
 
-Images provided by [Startup Stock Photos](https://startupstockphotos.com/)
+Images provided by [Pixabay](https://pixabay.com/)

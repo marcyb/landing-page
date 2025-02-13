@@ -3,9 +3,13 @@ body {
   flex-direction: column;
   background-color: #1F2937;
   font-family: "Roboto", serif;
-  padding: 8px 10%;
   justify-content: space-between;
   height: 100vh;
+}
+
+header { 
+  background-color: #1F2937;
+  padding: 16px 64px;
 }
 
 header > ul {
@@ -34,9 +38,12 @@ a {
 }
 
 .main {
+  background-color: #1F2937;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 64px;
+  min-height: 500px;
 }
 
 h1 {
@@ -60,10 +67,43 @@ h1 {
 }
 
 .left {
-  margin-right: 40px;
+  margin-right: 32px;
+}
+
+.right {
+  text-align: right;
 }
 
 .left, .right {
   flex: 1;
   min-height: 300px;
+}
+
+.info {
+  background-color: white;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  margin: 32px;
+}
+
+.container {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  text-align: center;
+  min-height: 300px;
+}
+
+.container .text {
+  max-width: 175px;
+  font-size: 18px;
+}
+
+.item img {
+  max-width: 175px;
+  border: 3px solid #3882F6;
+  border-radius: 10px;
 }
